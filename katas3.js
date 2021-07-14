@@ -19,7 +19,7 @@ function kata1() {
         results.push(i);
     }
 
-    return showResults(results);
+    return results;
 }
 
 function kata2() {
@@ -31,7 +31,7 @@ function kata2() {
         resultado.push(i);
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata3() {
@@ -43,7 +43,7 @@ function kata3() {
         resultado.push(i)
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata4() {
@@ -53,7 +53,7 @@ function kata4() {
         retultado.push(i);
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata5() {
@@ -67,7 +67,7 @@ function kata5() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata6() {
@@ -81,7 +81,7 @@ function kata6() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata7() {
@@ -95,7 +95,7 @@ function kata7() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata8() {
@@ -109,7 +109,7 @@ function kata8() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata9() {
@@ -123,13 +123,13 @@ function kata9() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata10() {
     // implemente o código do kata 10 aqui
 
-    return showResults(sampleArray[i]);
+    return sampleArray[i];
 }
 
 function kata11() {
@@ -143,7 +143,7 @@ function kata11() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata12() {
@@ -157,7 +157,7 @@ function kata12() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata13() {
@@ -171,7 +171,7 @@ function kata13() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata14() {
@@ -183,7 +183,7 @@ function kata14() {
         resultado.push(sampleArray[i] * sampleArray[i]);
     }
 
-    return showResults(resultado);
+    return resultado;
 }
 
 function kata15() {
@@ -221,7 +221,7 @@ function kata17() {
         }
     }
 
-    return showResults(resultado);
+    return resultado;
 
 }
 
@@ -235,8 +235,10 @@ function kata18() {
         resultado = sampleArray[i];
     }
 
-    return showResults(resultado);
+    return resultado;
 }
+
+showResults(kata1());
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
