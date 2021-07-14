@@ -239,6 +239,23 @@ function kata18() {
 }
 
 showResults(kata1());
+showResults(kata2());
+showResults(kata3());
+showResults(kata4());
+showResults(kata5());
+showResults(kata6());
+showResults(kata7());
+showResults(kata8());
+showResults(kata7());
+showResults(kata10());
+showResults(kata11());
+showResults(kata12());
+showResults(kata13());
+showResults(kata14());
+showResults(kata15());
+showResults(kata16());
+showResults(kata17());
+showResults(kata18());
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
