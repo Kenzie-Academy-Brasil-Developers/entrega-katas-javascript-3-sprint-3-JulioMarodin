@@ -19,6 +19,7 @@ function kata1() {
         results.push(i);
     }
 
+    showResults(results);
     return results;
 }
 
@@ -31,6 +32,7 @@ function kata2() {
         resultado.push(i);
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -43,6 +45,7 @@ function kata3() {
         resultado.push(i)
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -50,9 +53,10 @@ function kata4() {
     // implemente o código do kata 4 aqui
 
     for(let i = -25; i <= -1; i++) {
-        retultado.push(i);
+        resultado.push(i);
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -67,6 +71,7 @@ function kata5() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -81,6 +86,7 @@ function kata6() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -95,6 +101,7 @@ function kata7() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -109,6 +116,7 @@ function kata8() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -123,13 +131,15 @@ function kata9() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
 function kata10() {
     // implemente o código do kata 10 aqui
 
-    return sampleArray[i];
+    showResults(sampleArray);
+    return sampleArray;
 }
 
 function kata11() {
@@ -143,6 +153,7 @@ function kata11() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -157,6 +168,7 @@ function kata12() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -171,6 +183,7 @@ function kata13() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -183,6 +196,7 @@ function kata14() {
         resultado.push(sampleArray[i] * sampleArray[i]);
     }
 
+    showResults(resultado);
     return resultado;
 }
 
@@ -195,7 +209,8 @@ function kata15() {
         soma += i;
     }
 
-    return showResults(soma);
+    showResults(soma);
+    return soma;
 }
 
 function kata16() {
@@ -207,7 +222,8 @@ function kata16() {
         soma += sampleArray[i];
     }
 
-    return showResults(soma);
+    showResults(soma);
+    return soma;
 }
 
 function kata17() {
@@ -221,6 +237,7 @@ function kata17() {
         }
     }
 
+    showResults(resultado);
     return resultado;
 
 }
@@ -235,27 +252,9 @@ function kata18() {
         resultado = sampleArray[i];
     }
 
+    showResults(resultado);
     return resultado;
 }
-
-showResults(kata1());
-showResults(kata2());
-showResults(kata3());
-showResults(kata4());
-showResults(kata5());
-showResults(kata6());
-showResults(kata7());
-showResults(kata8());
-showResults(kata7());
-showResults(kata10());
-showResults(kata11());
-showResults(kata12());
-showResults(kata13());
-showResults(kata14());
-showResults(kata15());
-showResults(kata16());
-showResults(kata17());
-showResults(kata18());
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
