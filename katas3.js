@@ -1,7 +1,10 @@
-function showResults(n) {
-    const result = document.createElement("div");
+function showResults(n, tituloKata) {
+    const result = document.createElement("p");
+    const titulo = document.createElement("p");
+    titulo.innerText = tituloKata;
     result.innerText = n + ', ';
     const destination = document.getElementById("resultado")
+    destination.appendChild(titulo);
     destination.appendChild(result);
 }
 
@@ -19,9 +22,13 @@ function kata1() {
         results.push(i);
     }
 
-    showResults(results);
+    const titulo = "Kata 1";
+
+    showResults(results, titulo);
     return results;
 }
+
+kata1();
 
 function kata2() {
     // implemente o código do kata 2 aqui
@@ -32,9 +39,13 @@ function kata2() {
         resultado.push(i);
     }
 
-    showResults(resultado);
+    const titulo = "Kata 2";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata2();
 
 function kata3() {
     // implemente o código do kata 3 aqui
@@ -45,35 +56,49 @@ function kata3() {
         resultado.push(i)
     }
 
-    showResults(resultado);
+    const titulo = "Kata 3";
+
+    showResults(resultado, titulo);
     return resultado;
 }
 
+kata3();
+
 function kata4() {
     // implemente o código do kata 4 aqui
+
+    let resultado = [];
 
     for(let i = -25; i <= -1; i++) {
         resultado.push(i);
     }
 
-    showResults(resultado);
+    const titulo = "Kata 4";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata4();
 
 function kata5() {
     // implemente o código do kata 5 aqui
 
     let resultado = [];
 
-    for(let i = 25; i <= -25; i--) {
+    for(let i = 25; i >= -25; i--) {
         if(i % 2 !== 0) {
             resultado.push(i);
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 5";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata5();
 
 function kata6() {
     // implemente o código do kata 6 aqui
@@ -86,9 +111,13 @@ function kata6() {
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 6";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata6();
 
 function kata7() {
     // implemente o código do kata 7 aqui
@@ -101,9 +130,13 @@ function kata7() {
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 7";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata7();
 
 function kata8() {
     // implemente o código do kata 8 aqui
@@ -116,9 +149,13 @@ function kata8() {
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 8";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata8();
 
 function kata9() {
     // implemente o código do kata 9 aqui
@@ -131,16 +168,24 @@ function kata9() {
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 9";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata9();
 
 function kata10() {
     // implemente o código do kata 10 aqui
 
-    showResults(sampleArray);
+    const titulo = "Kata 10";
+
+    showResults(sampleArray, titulo);
     return sampleArray;
 }
+
+kata10();
 
 function kata11() {
     // implemente o código do kata 11 aqui
@@ -153,9 +198,13 @@ function kata11() {
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 11";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata11();
 
 function kata12() {
     // implemente o código do kata 12 aqui
@@ -168,9 +217,13 @@ function kata12() {
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 12";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata12()
 
 function kata13() {
     // implemente o código do kata 13 aqui
@@ -183,9 +236,13 @@ function kata13() {
         }
     }
 
-    showResults(resultado);
+    const titulo = "Kata 13";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata13();
 
 function kata14() {
     // implemente o código do kata 14 aqui
@@ -196,22 +253,30 @@ function kata14() {
         resultado.push(sampleArray[i] * sampleArray[i]);
     }
 
-    showResults(resultado);
+    const titulo = "Kata 14";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata14();
 
 function kata15() {
     // implemente o código do kata 15 aqui
 
     let soma = 0;
 
-    for(let i = 0; i < 20; i++) {
+    for(let i = 0; i <= 20; i++) {
         soma += i;
     }
 
-    showResults(soma);
+    const titulo = "Kata 15";
+
+    showResults(soma, titulo);
     return soma;
 }
+
+kata15();
 
 function kata16() {
     // implemente o código do kata 16 aqui
@@ -222,9 +287,13 @@ function kata16() {
         soma += sampleArray[i];
     }
 
-    showResults(soma);
+    const titulo = "Kata 16";
+
+    showResults(soma, titulo);
     return soma;
 }
+
+kata16();
 
 function kata17() {
     // implemente o código do kata 17 aqui
@@ -237,10 +306,13 @@ function kata17() {
         }
     }
 
-    showResults(resultado);
-    return resultado;
+    const titulo = "Kata 17";
 
+    showResults(resultado, titulo);
+    return resultado;
 }
+
+kata17();
 
 function kata18() {
     // implemente o código do kata 18 aqui
@@ -252,9 +324,13 @@ function kata18() {
         resultado = sampleArray[i];
     }
 
-    showResults(resultado);
+    const titulo = "Kata 18";
+
+    showResults(resultado, titulo);
     return resultado;
 }
+
+kata18();
 
 /**
  * Daqui em diante são os bônus, por sua conta e risco
